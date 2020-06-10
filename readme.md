@@ -26,33 +26,7 @@ class Second extends First
 }
 ```
 
-
-# 2. Реализовать два класса: First и Second 
-Реализовал 2 функции, одна выбирает текст, вторая выбирает цвет без выбранного цвета первой функции
-
-```sh
-function color_chis()
-{
-    $array_color = array("red", "blue", "green", "yellow", "lime", "magenta", "black", "gold", "gray", "tomato");
-    $chi = rand(0, 9);
-   return $array_color[$chi];
-}
-function color_text($ind)
-{
-    $array_color = array("red", "blue", "green", "yellow", "lime", "magenta", "black", "gold", "gray", "tomato");
-    foreach($array_color as $key => $item){
-        if ($item == $ind){
-            unset($array_color[$key]);
-        }
-    }
-    $chi = rand(0, 8);
-    return ($array_color[$chi]);
-}
-```
-
-
-
-# 2. Реализовать два класса: First и Second 
+# 2. Реализовать Тест Струпа
 Реализовал 2 функции, одна выбирает текст, вторая выбирает цвет без выбранного цвета первой функции
 
 ```sh
